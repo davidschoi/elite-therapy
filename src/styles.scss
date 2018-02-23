@@ -1,0 +1,19 @@
+@import 'assets/scss/variables'; 
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+@import url('#{$google-font-path}Lato|Source+Sans+Pro:300,400,400i,900');
+
+body {
+    background-image: transparent;
+    // background-position: fixed;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+.app-loading {
+    .logo {
+        width: 100px;
+        height: 100px;
+        background: url('./assets/ufg-logo.svg') center center no-repeat; 
+    }
+}
