@@ -1,19 +1,27 @@
 @import 'assets/scss/variables'; 
 @import '../node_modules/bootstrap/scss/bootstrap';
 
-@import url('#{$google-font-path}Lato|Source+Sans+Pro:300,400,400i,900');
+@import url('#{$google-font-path}Source+Sans+Pro:300,700|Michroma');
 
 body {
-    background-image: transparent;
-    // background-position: fixed;
+    color: #5d5d5d;
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.55;
     margin: 0;
 }
 
-.app-loading {
-    .logo {
-        width: 100px;
-        height: 100px;
-        background: url('./assets/ufg-logo.svg') center center no-repeat; 
-    }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000;  
+    font-weight: 700; 
+}
+
+.btn {
+    border-radius: 0;
 }

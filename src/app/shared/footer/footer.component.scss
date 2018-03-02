@@ -1,0 +1,25 @@
+.footer--directory {
+    padding: 4rem 0;
+}
+
+.footer--copyright {
+    padding: 2rem 0;
+}
+
+.footer--borderTop {
+    border-top: 1px solid #ebebeb;
+}
+
+.logo {
+    border-bottom: 5px solid #fff;
+    color: #000;
+    font-family: 'Michroma', sans-serif;
+    font-size: 3.25rem;
+
+    &--slogan {
+        color: #000;
+        font-size: 1rem;
+        font-style: italic;
+        letter-spacing: 0.25rem;
+    }
+}
