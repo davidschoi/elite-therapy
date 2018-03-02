@@ -12,6 +12,12 @@
 
 * Click around
 
+## Update gh-pages
+
+```
+ng build --prod --output-path docs --base-href elite-therapy
+```
+
 ## Development server
 
 1. To run the curse app you’ll first need to install Angular CLI
