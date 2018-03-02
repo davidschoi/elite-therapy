@@ -10,23 +10,18 @@
 
 ## Navigating Elite
 
-* Click around
-
-## Update gh-pages
-
-```
-ng build --prod --output-path docs --base-href elite-therapy
-```
+* Click around.
+* None of the links actually work.
 
 ## Development server
 
-1. To run the curse app you’ll first need to install Angular CLI
+1. To run the curse app you’ll first need to install Angular CLI.
 
 ```
 npm install -g @angular/cli
 ```
 
-2. Clone the repository and install dependencies
+2. Clone the repository and install dependencies.
 
 ```
 git clone https://github.com/davidgumzchoi/curse.git
@@ -42,7 +37,13 @@ ng serve
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `docs/` directory. Use the `-prod` flag for a production build.
+1. Build gh-pages project and store in the `docs` directory.
+
+```
+ng build --prod --output-path docs --base-href /elite-therapy/
+```
+
+2. Make a copy of `docs/index.html` and name it `docs/404.html`.
 
 ## Running unit tests
 
