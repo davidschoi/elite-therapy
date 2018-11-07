@@ -1,0 +1,43 @@
+.home {
+  &--section {
+    padding: 4rem 0;
+
+    &__specialties {
+      margin: 0 4rem;
+    }
+  }
+
+  &--bg__offset {
+    background: #eee;
+    border-top: 1px solid #f3f6fa;
+    border-bottom: 1px solid #f3f6fa;
+  }
+}
+
+.fa-quote-left {
+  margin-right: 0.5rem;
+}
+
+.fa-quote-right {
+  margin-left: 0.5rem;
+}
+
+.tagline {
+  font-size: 3rem;
+}
+
+.space--v {
+  margin: 2rem 0;
+}
+
+.img-fluid {
+  filter: grayscale(100%);
+}
+
+.margin-top-5 {
+  margin-top: 40px;
+}
+
+.margin-top-10 {
+  margin-top: 80px;
+}
