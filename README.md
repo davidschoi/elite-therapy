@@ -8,14 +8,9 @@
 * [ ] Event Emitter for dynamic Header on scroll [StackOverflow](https://stackoverflow.com/questions/36471927/eventemitter-does-not-work-on-chrome-safari)
 * [ ] Mobile improvements
 
-## Navigating Elite
-
-* Click around.
-* None of the links actually work.
-
 ## Development server
 
-1. To run the curse app you’ll first need to install Angular CLI.
+1. To run the elite-therapy app you’ll first need to install Angular CLI.
 
 ```
 npm install -g @angular/cli
@@ -24,8 +19,8 @@ npm install -g @angular/cli
 2. Clone the repository and install dependencies.
 
 ```
-git clone https://github.com/davidgumzchoi/curse.git
-cd curse-app
+git clone https://github.com/davidgumzchoi/elite-therapy.git
+cd elite-therapy
 npm install
 ```
 
@@ -42,8 +37,6 @@ ng serve
 ```
 ng build --prod --output-path docs --base-href /elite-therapy/
 ```
-
-2. Make a copy of `docs/index.html` and name it `docs/404.html`.
 
 ## Running unit tests
 
