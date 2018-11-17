@@ -4,9 +4,8 @@
 
 ## Improvements
 
-* [ ] Differentiate from Shift.org
-* [ ] Event Emitter for dynamic Header on scroll [StackOverflow](https://stackoverflow.com/questions/36471927/eventemitter-does-not-work-on-chrome-safari)
-* [ ] Mobile improvements
+- [ ] initialize typeform.com or using google forms for patient/agency tab
+- [ ] add more content @kevin
 
 ## Development server
 
@@ -35,7 +34,7 @@ ng serve
 1. Build gh-pages project and store in the `docs` directory.
 
 ```
-ng build --prod --output-path docs --base-href /elite-therapy/
+ng build --prod --output-path docs --base-href /
 ```
 
 ## Running unit tests
