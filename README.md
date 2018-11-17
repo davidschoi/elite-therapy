@@ -4,8 +4,8 @@
 
 ## Improvements
 
-- [ ] initialize typeform.com or using google forms for patient/agency tab
 - [ ] add more content @kevin
+- [ ] typeform content from @kevin
 
 ## Development server
 

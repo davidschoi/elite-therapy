@@ -6,6 +6,13 @@ img {
 
 .navbar {
   margin-bottom: 10px;
+
+  .nav-link {
+    &:hover,
+    .active {
+      color: rgba(255, 255, 255, 0.85);
+    }
+  }
 }
 
 .logo--offset {
