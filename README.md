@@ -1,11 +1,13 @@
-# EliteApp
+# Elite Therapy Providers Website
 
-> Angular 5 app served through Angular CLI, styled using Sass using Bootstrap framework and ngx-bootstrap
+> Angular 5.x app served through Angular CLI, styled using [Sass](https://sass-lang.com/) using [ngx-bootstrap](https://valor-software.com/ngx-bootstrap/#/)
 
 ## Improvements
 
 - [ ] add more content @kevin
 - [ ] typeform content from @kevin
+- [ ] upgrade to current Angular version
+- [ ] add testing framework
 
 ## Development server
 
@@ -18,8 +20,8 @@ npm install -g @angular/cli
 2. Clone the repository and install dependencies.
 
 ```
-git clone https://github.com/davidgumzchoi/elite-therapy.git
-cd elite-therapy
+git clone https://github.com/elite-therapy-providers/elitetherapyproviders.com.git
+cd elitetherapyproviders.com
 npm install
 ```
 
